@@ -16,3 +16,5 @@ ReactDOM.render(
   </ErrorBoundary>
   , document.getElementById('root')
 )
+
+Bugsnag.notify(new Error('Test error'))
