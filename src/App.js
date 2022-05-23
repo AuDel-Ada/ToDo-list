@@ -86,6 +86,8 @@ function App() {
           ))}
         </ul>
       </form>
+      {/* Test Sentry */}
+      <button onClick={methodDoesNotExist}>Break the world</button>;
     </div>
   );
 }
