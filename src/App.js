@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import * as Sentry from "@sentry/react";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -92,4 +93,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sentry.withProfiler(App);
