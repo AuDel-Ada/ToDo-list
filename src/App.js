@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import * as Sentry from "@sentry/react";
+// import * as Sentry from "@sentry/react";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -87,10 +87,9 @@ function App() {
           ))}
         </ul>
       </form>
-      {/* Test Sentry
-      <button onClick={methodDoesNotExist}>Break the world</button>; */}
     </div>
   );
 }
 
-export default Sentry.withProfiler(App);
+// export default Sentry.withProfiler(App);
+export default App;
