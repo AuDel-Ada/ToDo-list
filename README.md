@@ -7,7 +7,9 @@ Following the tuto :
 GOALS :
 - continue training on React
 - understand and start using hooks 
-- have a repo on which to use GitHub Actions !
+- have a repo on which to use GitHub Actions
+- config Bugsnag for bug monitoring 
+- use Bitbucket to follow the full config of Bugsnag
 
 INFOS : 
 - download React & Node
